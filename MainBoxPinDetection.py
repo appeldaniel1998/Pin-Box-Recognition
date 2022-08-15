@@ -19,7 +19,8 @@ distance between wholes - 2.5mm to each side
 
 if __name__ == '__main__':
     # instantiating an object (rf) with the RoboflowOak module
-    rf = RoboflowOak(model="pin-box", confidence=0.4, overlap=0.5, version='2', api_key="cNpdg5tikNEVov7CYRVN", rgb=True, depth=True, device=None, blocking=True)
+    rf = RoboflowOak(model="pin-box", confidence=0.4, overlap=0.5, version='2',
+                     api_key="cNpdg5tikNEVov7CYRVN", rgb=True, depth=True, device=None, blocking=True)
     # Running our model and displaying the video output with detections
     depths = []
     widths = []
